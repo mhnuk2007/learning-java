@@ -58,7 +58,7 @@ Each topic is organized in its own folder with:
 
 ## 👨‍🎓 Who Am I?
 
-My name is **[Your Name]**, and this repo is a reflection of my commitment to continuous learning. Despite being 48+, I’ve never stopped exploring new skills, and this Java learning journey is one part of it. I’m documenting everything to make the learning structured, practical, and revisitable.
+My name is **Mohan Lal**, and this repo is a reflection of my commitment to continuous learning. Despite being 48+, I’ve never stopped exploring new skills, and this Java learning journey is one part of it. I’m documenting everything to make the learning structured, practical, and revisitable.
 
 ---
 
@@ -94,4 +94,3 @@ While this is a personal learning repository, feedback, corrections, or improvem
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
-
