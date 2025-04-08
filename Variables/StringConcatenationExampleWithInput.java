@@ -1,7 +1,15 @@
-public class StringConcatenationExample {
+import java.util.Scanner;
+
+public class StringConcatenationExampleWithInput {
     public static void main(String[] args) {
-        String firstName = "Mohan";
-        String lastName = "Lal";
+        Scanner scanner = new Scanner(System.in);
+
+        // Get user input
+        System.out.print("Enter first name: ");
+        String firstName = scanner.nextLine();
+
+        System.out.print("Enter last name: ");
+        String lastName = scanner.nextLine();
 
         // 1. Using + operator
         String fullName1 = firstName + " " + lastName;
@@ -11,7 +19,7 @@ public class StringConcatenationExample {
         String fullName2 = firstName.concat(" ").concat(lastName);
         System.out.println("Using concat(): " + fullName2);
 
-        // 3. Using StringBuilder (efficient in loops)
+        // 3. Using StringBuilder
         StringBuilder sb = new StringBuilder();
         sb.append(firstName);
         sb.append(" ");
@@ -22,5 +30,6 @@ public class StringConcatenationExample {
         String fullName4 = String.format("%s %s", firstName, lastName);
         System.out.println("Using String.format(): " + fullName4);
 
+        scanner.close();
     }
 }

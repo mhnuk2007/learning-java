@@ -1,23 +1,21 @@
-import java.util.Scanner;
-
 public class StringReplaceExample {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        String originalString = "Hello, Java World! Java is fun.";
 
-        // Take input string and characters from user
-        System.out.println("Enter the string:");
-        String str = scanner.nextLine();
+        // 1. Replace all occurrences of "Java" with "Python"
+        String replacedString1 = originalString.replace("Java", "Python");
+        System.out.println("Replaced 'Java' with 'Python': " + replacedString1);
 
-        System.out.println("Enter the character to be replaced:");
-        char oldChar = scanner.next().charAt(0);
+        // 2. Replace first occurrence of "Java" with "Python"
+        String replacedString2 = originalString.replaceFirst("Java", "Python");
+        System.out.println("Replaced first 'Java' with 'Python': " + replacedString2);
 
-        System.out.println("Enter the new character:");
-        char newChar = scanner.next().charAt(0);
+        // 3. Replace all occurrences of space with an underscore
+        String replacedString3 = originalString.replace(" ", "_");
+        System.out.println("Replaced spaces with underscores: " + replacedString3);
 
-        // Replace character in the string
-        String result = str.replace(oldChar, newChar);
-        System.out.println("Modified string: " + result);
-
-        scanner.close();
+        // 4. Replace a character with another character
+        String replacedString4 = originalString.replace('o', '0');
+        System.out.println("Replaced 'o' with '0': " + replacedString4);
     }
 }

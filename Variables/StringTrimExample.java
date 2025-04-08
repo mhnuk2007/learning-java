@@ -1,17 +1,13 @@
-import java.util.Scanner;
-
 public class StringTrimExample {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        // String with leading and trailing spaces
+        String originalString = "   Java Programming is fun!   ";
 
-        // Take input string from user
-        System.out.println("Enter a string with spaces:");
-        String str = scanner.nextLine();
+        // Trim the spaces from the beginning and end of the string
+        String trimmedString = originalString.trim();
 
-        // Trim whitespace
-        String trimmed = str.trim();
-        System.out.println("Trimmed string: " + trimmed);
-
-        scanner.close();
+        // Output the original and trimmed strings
+        System.out.println("Original String: '" + originalString + "'");
+        System.out.println("Trimmed String: '" + trimmedString + "'");
     }
 }

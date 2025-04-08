@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 public class StringLengthExample {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        // Example strings
+        String str1 = "Java Programming";
+        String str2 = "Hello, World!";
+        String str3 = " ";
+        String str4 = "";
 
-        // Take input string from user
-        System.out.println("Enter a string:");
-        String input = scanner.nextLine();
-
-        // Calculate and display the length of the string
-        int length = input.length();
-        System.out.println("The length of the string is: " + length);
-
-        scanner.close();
+        // Get and print the length of each string
+        System.out.println("Length of str1: " + str1.length());  // 16
+        System.out.println("Length of str2: " + str2.length());  // 13
+        System.out.println("Length of str3: " + str3.length());  // 1 (space is a character)
+        System.out.println("Length of str4: " + str4.length());  // 0 (empty string)
     }
 }
