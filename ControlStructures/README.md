@@ -4,7 +4,7 @@ Control structures determine the flow of a program. In Java, they are essential 
 
 ---
 
-## 📍 1. Decision-Making Statements
+## 📌 1. Decision-Making Statements
 These statements are used to execute a block of code based on a condition.
 
 ### 🔹 `if` Statement
@@ -57,6 +57,165 @@ switch (day) {
 
 ---
 
+## 💪 Practical Examples of `if` Statement Variations
+
+#### 1. **Simple `if` Statement**
+```java
+public class IfExample {
+    public static void main(String[] args) {
+        int number = 10;
+
+        if (number > 0) {
+            System.out.println("Number is positive.");
+        }
+    }
+}
+```
+
+#### 2. **`if-else` Statement**
+```java
+public class IfElseExample {
+    public static void main(String[] args) {
+        int number = -5;
+
+        if (number >= 0) {
+            System.out.println("Number is non-negative.");
+        } else {
+            System.out.println("Number is negative.");
+        }
+    }
+}
+```
+
+#### 3. **`if-else-if` Ladder**
+```java
+public class IfElseIfExample {
+    public static void main(String[] args) {
+        int score = 85;
+
+        if (score >= 90) {
+            System.out.println("Grade: A");
+        } else if (score >= 75) {
+            System.out.println("Grade: B");
+        } else if (score >= 60) {
+            System.out.println("Grade: C");
+        } else {
+            System.out.println("Grade: F");
+        }
+    }
+}
+```
+
+#### 4. **Nested `if-else`**
+```java
+public class NestedIfElseExample {
+    public static void main(String[] args) {
+        int age = 20;
+        boolean hasLicense = true;
+
+        if (age >= 18) {
+            if (hasLicense) {
+                System.out.println("You can drive.");
+            } else {
+                System.out.println("You need a license to drive.");
+            }
+        } else {
+            System.out.println("You are too young to drive.");
+        }
+    }
+}
+```
+
+#### 5. **`if` with Logical Operators**
+```java
+public class LogicalIfExample {
+    public static void main(String[] args) {
+        int age = 30;
+        boolean isEmployed = true;
+
+        if (age > 18 && isEmployed) {
+            System.out.println("Eligible for loan.");
+        }
+    }
+}
+```
+
+#### 6. **Single-Line `if` Statement**
+```java
+public class SingleLineIf {
+    public static void main(String[] args) {
+        int number = 7;
+
+        if (number % 2 != 0) System.out.println("Number is odd.");
+    }
+}
+```
+
+#### 7. **Using `if` with `return` (Early Exit)**
+```java
+public class EarlyReturnExample {
+    public static void checkAge(int age) {
+        if (age < 18) {
+            System.out.println("Access denied.");
+            return;
+        }
+        System.out.println("Access granted.");
+    }
+
+    public static void main(String[] args) {
+        checkAge(16);
+        checkAge(21);
+    }
+}
+```
+
+#### 8. **`if` Inside a Loop**
+```java
+public class IfInLoopExample {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i + " is even");
+            } else {
+                System.out.println(i + " is odd");
+            }
+        }
+    }
+}
+```
+
+#### 9. **`if` with Boolean Flags**
+```java
+public class BooleanFlagIfExample {
+    public static void main(String[] args) {
+        boolean isLoggedIn = true;
+
+        if (isLoggedIn) {
+            System.out.println("Show dashboard.");
+        } else {
+            System.out.println("Redirect to login.");
+        }
+    }
+}
+```
+
+#### 10. **String Comparison in `if`**
+```java
+public class StringIfExample {
+    public static void main(String[] args) {
+        String role = "admin";
+
+        if (role.equals("admin")) {
+            System.out.println("Access granted.");
+        } else {
+            System.out.println("Access denied.");
+        }
+    }
+}
+```
+
+---
+
 ## 🔁 2. Looping Statements
 Used to repeat a block of code multiple times.
 
@@ -103,7 +262,7 @@ for (int num : numbers) {
 
 ---
 
-## 🧭 3. Branching Statements
+## 🧽 3. Branching Statements
 Used to alter the normal flow of execution.
 
 ### 🔹 `break` Statement
