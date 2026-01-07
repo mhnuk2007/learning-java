@@ -1,93 +1,92 @@
-# 🧠 learning-java
+# 🧠 Learning Java
 
-Welcome to **learning-java**, a comprehensive, beginner-friendly, and structured Java learning repository. Whether you're starting from scratch or revisiting fundamentals, this repo is built to guide you step-by-step through the Java programming language.
+Welcome to **learning-java**, a beginner-friendly, structured, and practical Java learning repository. This repository is designed for anyone who wants to master **Core Java**, **Object-Oriented Programming (OOP)**, **Collections**, **Multithreading**, **File I/O**, and more through hands-on examples.
 
 ---
 
 ## 📚 What You'll Learn
 
-This repository covers the following key areas of Java:
-
 ### 🔰 Core Java
 - Variables and Data Types
-- Operators
-- Control Structures (if-else, loops, switch)
-- Arrays and Strings
+- Operators and Expressions
+- Control Structures (if, switch, loops)
 - Methods and Recursion
+- Arrays and Strings
 
-### 👨‍💻 Object-Oriented Programming
+### 👨‍💻 Object-Oriented Programming (OOP)
 - Classes and Objects
 - Inheritance
 - Polymorphism
 - Abstraction & Encapsulation
+- Interfaces and Abstract Classes
 
 ### ⚙️ Advanced Concepts
 - Exception Handling
-- Collections Framework
+- Collections Framework (List, Set, Map)
 - Generics
-- Java I/O (File handling)
+- Java I/O (File Handling)
 - Multi-threading and Concurrency
 
 ### 🚀 Modern Java Features
-- Java 8+ (Lambdas, Stream API, Functional Interfaces)
-- Optional, Method References
+- Java 8+ Features (Lambdas, Stream API, Functional Interfaces)
+- Optional and Method References
 
-### 🧪 Testing & Patterns
+### 🧪 Testing & Design Patterns
 - JUnit Testing
 - Common Design Patterns
-
-### 🗃️ Database & JDBC
-- JDBC with MySQL
-- CRUD operations
 
 ### 🛠️ Practice & Projects
 - Mini Practice Projects
 - Coding Exercises
-- Interview Questions (Planned)
+- Real-world Java Examples
 
 ---
 
-## 🔧 How This Repo is Organized
+## 🔧 Repository Structure
 
-Each topic is organized in its own folder with:
+```
+learning-java/
+│
+├── Collection/           # Examples: List, Set, Map, Queue, LinkedList
+├── ControlStructures/    # If, Switch, Loops, PrimeCheck, Factorial, Games
+├── Operators/            # Operators and arithmetic practice
+├── Variables/            # Variables, Type Conversion, String Examples
+├── string/               # String manipulations
+├── primitive_data_types.md
+├── strings.md
+├── variables.md
+└── README.md
+```
+
+Each folder contains:
 - ✅ Java source code examples
 - 📝 Explanations in Markdown
-- ❓ Practice questions (where applicable)
-
----
-
-## 👨‍🎓 Who Am I?
-
-My name is **Mohan Lal**, and this repo is a reflection of my commitment to continuous learning. Despite being 48+, I’ve never stopped exploring new skills, and this Java learning journey is one part of it. I’m documenting everything to make the learning structured, practical, and revisitable.
+- ❓ Practice exercises
 
 ---
 
 ## 📌 Project Goals
 
-- 📒 Build structured notes and hands-on Java examples.
-- 🧱 Strengthen Java fundamentals for real-world development.
-- 🔁 Revisit and master previously learned concepts.
-- 🎯 Targeting roles like Java Backend Developer.
+- Build **structured Java learning notes** with examples.
+- Strengthen **Java fundamentals** for backend development.
+- Create a **hands-on Java practice repository** for beginners.
+- Prepare for **Java programming interviews** and assessments.
 
 ---
 
 ## 📆 Status
 
 - 🔄 **Actively Updating**
-- 🛠️ More examples, notes, and explanations being added every week.
+- 🛠️ More examples, explanations, and exercises are added weekly.
 
 ---
 
-## 🤝 Contributions
+## 👨‍🎓 Author
 
-While this is a personal learning repository, feedback, corrections, or improvements are always welcome! Feel free to fork and contribute.
+**Mohan Lal** – Lifelong Learner and Aspiring Java Backend Developer
 
----
-
-## 🔗 Connect With Me
-
-- 🌐 [LinkedIn](https://www.linkedin.com/in/mohan-lal-b79790126/)
-- 🧑‍💻 GitHub: [mhnuk2007](https://github.com/mhnuk2007)
+- GitHub: [mhnuk2007](https://github.com/mhnuk2007)
+- LinkedIn: [Mohan Lal](https://www.linkedin.com/in/mhnuk2007/)
 
 ---
 
