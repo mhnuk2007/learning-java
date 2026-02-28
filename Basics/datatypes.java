@@ -2,18 +2,25 @@ package Basics;
 
 public class datatypes {
     public static void main(String[] args) {
-        byte num = 127;
-        int num1  = 5;
-        double num2 = 5.3;
-        float num3 = 5.3f;
-        boolean bool = true;
-        char ch = 'a';
-        System.out.println(((Object)(num+1)).getClass().getSimpleName());
-        System.out.println(num1);
-        System.out.println(num2);
-        System.out.println(num3);
-        System.out.println(bool);
-        System.out.println(ch);
+        int studentAge = 10;
+        float studentGPA = 3.99f;
+        char studentFirstInitial = 'H';
+        char studentLastInitial = 'C';
+        String studentFirstName = "Honey";
+        String studentLastName = "Chauhan";
+
+        System.out.println("Student Age: " + studentAge);
+        System.out.println("Student GPA: " + studentGPA);
+        System.out.println("Student First Initial: " + studentFirstInitial);
+        System.out.println("Student Last Initial: " + studentLastInitial);
+        System.out.println("Student First Name: " + studentFirstName);
+        System.out.println("Student Last Name: " + studentLastName);
+        System.out.println("Student Full Name: " + studentFirstName + " " + studentLastName);
+
+
+
+
+
 
 
 
