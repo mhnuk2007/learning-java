@@ -1,5 +1,7 @@
 package Arrays;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         int[] rollNo = new int[5]; //declaration only, no initialization
@@ -27,5 +29,8 @@ public class Main {
             }
         }
         System.out.println("}");
+
+        System.out.println(Arrays.toString(rollNo));
+        System.out.println(Arrays.toString(rollNo2));
     }
 }
